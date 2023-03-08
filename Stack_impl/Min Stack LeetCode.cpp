@@ -70,19 +70,48 @@ private:
 int main(){
     
     MinStack st;
-    st.push(6);
     st.push(5);
+    st.push(4);
     st.push(8);
+    st.push(6);
+    st.push(2);
+    st.push(1);
+     
+    cout << "current top is: " <<st.top() << '\n';
+    cout << "current min is: " << st.getMin() << '\n';
+    st.pop();
+    cout << "current top is: " <<st.top() << '\n';
+    cout << "current min is: " << st.getMin() << '\n';
+    st.pop();
+    cout << "current top is: " <<st.top() << '\n';
+    cout << "current min is: " << st.getMin() << '\n';
+    st.pop();
+    cout << "current top is: " <<st.top() << '\n';
+    cout << "current min is: " << st.getMin() << '\n';
+    st.pop();
+    cout << "current top is: " <<st.top() << '\n';
+    cout << "current min is: " << st.getMin() << '\n';
+    st.pop();
+    cout << "current top is: " <<st.top() << '\n';
+    cout << "current min is: " << st.getMin() << '\n';
+    st.pop();
     
-    cout << "current top is: " <<st.top() << '\n';
-    cout << "current min is: " << st.getMin() << '\n';
-    st.pop();
-    cout << "current top is: " <<st.top() << '\n';
-    cout << "current min is: " << st.getMin() << '\n';
-    st.pop();
-    cout << "current top is: " <<st.top() << '\n';
-    cout << "current min is: " << st.getMin() << '\n';
-    st.pop();
+	/*
+		output should be
+		current top is: 1
+		current min is: 1
+		current top is: 2
+		current min is: 2
+		current top is: 6
+		current min is: 4
+		current top is: 8
+		current min is: 4
+		current top is: 4
+		current min is: 4
+		current top is: 5
+		current min is: 5
+	*/
+	
     
 	
 
