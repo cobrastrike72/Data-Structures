@@ -4,7 +4,7 @@ using namespace std;
 class MinStack {
     int size = 0;
     int capcity = 0;
-    int * arr;
+    int* arr;
     int* mim; 
 public:
     MinStack() {
@@ -13,18 +13,14 @@ public:
     }
     
     void push(int val) {
-        creat();
+        create();
         arr[size] = val;
-        if(size != 0){
-            if(val > mim[size - 1]) {mim[size] = mim[size - 1]; mim[size - 1] = val;}
-            else mim[size] = val;
-        }
+        if(size != 0) mim[size] = min(mim[size - 1], val);
         else mim[size] = val;
         size++;
     }
     
     void pop() {
-        if(arr[size - 1] != mim[size - 1]) mim[size - 2] = mim[size - 1];
         size--;
     }
     
@@ -36,8 +32,9 @@ public:
         return mim[size - 1];
     }
 
-private:
-    void creat(){
+private: 
+	// helper functions
+    void create(){
         if(size == capcity){
             capcity = size * 2 + (size == 0);
             int* temp = new int[capcity];
@@ -53,6 +50,23 @@ private:
             temp = nullptr;
             temp2 = nullptr;
         }
+    }
+
+    int min(int x, int y){
+        if(x > y) return y;
+        return x;
+    }
+
+    void clear(){
+        delete[] arr;
+        delete[] mim;
+        arr = nullptr, mim = nullptr;
+    }
+
+public:
+
+    ~MinStack(){
+        clear();
     }
 
     
