@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string.h>
+
 using namespace std;
 
+#define Dawood ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
 struct node{
     int Id;
@@ -278,21 +280,24 @@ public:
 int main()
 {
 
+    Dawood
+ 
     HybridDataStructure hb;
-
-    hb.add(1, "muhammad", 32);
-    hb.add(2, "mohab", 32);
+ 
+    hb.add(1, "Dawood", 32);
+    hb.add(2, "dod", 32);
     hb.add(3, "ibra", 33);
     hb.add(4, "ihab", 43);
-
-    hb.displayWholeLinkedListByChar('M');
+ 
+    hb.displayWholeLinkedListByChar('D');
     cout << "\n______________________________________\n";
     hb.displayWholeLinkedListByChar('I');
     cout << "\n______________________________________\n";
-    hb.displayNodeByName("Muhammad");
-
-    hb.deleteItemByName("Muhammad");
+    hb.displayNodeByName("Dawood");
+ 
+    hb.deleteItemByName("Dod");
     cout << "\n______________________________________\n";
-    hb.displayWholeLinkedListByChar('M');
+    hb.displayWholeLinkedListByChar('D');
+
     return 0;
 }
