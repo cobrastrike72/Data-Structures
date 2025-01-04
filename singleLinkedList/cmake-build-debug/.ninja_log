@@ -1,0 +1,26 @@
+# ninja log v5
+0	304	7577137523963451	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+3	329	7577137970082190	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+330	513	7577137971870002	singleLinkedList.exe	ac7d3f87a3918529
+3	350	7577139249074381	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+351	539	7577139250867398	singleLinkedList.exe	ac7d3f87a3918529
+3	352	7577139732655151	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+353	518	7577139734249672	singleLinkedList.exe	ac7d3f87a3918529
+3	332	7577140623033766	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+339	511	7577140624679481	singleLinkedList.exe	ac7d3f87a3918529
+3	320	7577141695100717	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+321	445	7577141696312885	singleLinkedList.exe	ac7d3f87a3918529
+3	343	7577142093919315	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+344	517	7577142095620433	singleLinkedList.exe	ac7d3f87a3918529
+3	311	7577142420573492	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+311	447	7577142421893136	singleLinkedList.exe	ac7d3f87a3918529
+4	361	7577142623258977	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+362	551	7577142625118351	singleLinkedList.exe	ac7d3f87a3918529
+4	315	7577142828794261	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+316	446	7577142830051899	singleLinkedList.exe	ac7d3f87a3918529
+3	317	7577142949928841	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+318	445	7577142951176694	singleLinkedList.exe	ac7d3f87a3918529
+4	328	7577143782778541	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+329	455	7577143784010213	singleLinkedList.exe	ac7d3f87a3918529
+3	317	7577144038538200	CMakeFiles/singleLinkedList.dir/main.cpp.obj	1fa140604d430c66
+318	450	7577144039825719	singleLinkedList.exe	ac7d3f87a3918529

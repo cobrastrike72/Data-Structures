@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1734595600 source:e:\iti-intake-45\8-data-structure\lab-2\queue-using-linked-list\main.cpp
+	<iostream>
+	<string.h>
+

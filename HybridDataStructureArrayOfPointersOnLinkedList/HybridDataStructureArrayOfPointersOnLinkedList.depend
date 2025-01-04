@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1734610317 source:e:\iti-intake-45\8-data-structure\lab-2\hybriddatastructurearrayofpointersonlinkedlist\main.cpp
+	<iostream>
+	<string.h>
+

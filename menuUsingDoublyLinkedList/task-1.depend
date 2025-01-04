@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1734601688 source:e:\iti-intake-45\8-data-structure\lab-1\task-1\main.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+
